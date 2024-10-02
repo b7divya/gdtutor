@@ -1,0 +1,102 @@
+.slider {
+    height: 100vh;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slider-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-top: 0rem;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100vw;
+}
+
+.slider-container-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    flex-direction: column;
+}
+
+/* .slider-container-left-heading {
+    font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    color: rgb(15, 121, 50);
+}   */
+
+.slider-container-left-heading {
+    font-family: serif;
+    font-size: 2.8rem;
+    background: linear-gradient(90deg, #780206, #061161); /* Define gradient colors */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.slider-container-left-desc {
+    font-family: serif;
+    font-size: 2rem;
+    background: linear-gradient(90deg, #850e01, #ff3c00); /* Define gradient colors */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.slider-container-left-button {
+    margin-top: 2rem;
+}
+
+.slider-btn {
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(90deg, #8E2DE2, #4A00E0);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.slider-btn:hover {
+    background: linear-gradient(90deg, #4A00E0, #8E2DE2);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.slider-container-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    flex-direction: column;
+}
+
+/* .slider-container-left {
+    width: 40vw;
+    height: 40vh;
+    padding: 3rem;
+    padding: 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 700;
+    font-size: 3rem;
+    border: 1px solid black;
+}
+
+.slider-container-right {
+    width: 40vw;
+} */

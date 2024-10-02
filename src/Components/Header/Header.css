@@ -1,0 +1,53 @@
+/* .main {
+    height: 10vh;
+    width: 100vw;
+} */
+
+.main-header {
+    height: 10vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #c1d4d6, #5078F2);
+}
+
+.main-header-onelogo {
+    width:60vw;
+}
+
+.main-header-buttons {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+/* .intBtn, .tutorBtn, .feeBtn {
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    border-radius: 15px;
+    font-size: 1rem;
+    color: blue;
+    border: none;
+} */
+
+.intBtn, .tutorBtn, .feeBtn {
+    padding: 12px 20px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    background: linear-gradient(45deg, #d67878, #e03f0e);    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    cursor: pointer;
+}
+
+.intBtn:hover, .tutorBtn:hover, .feeBtn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #fae3a0, #f06a6a);
+}

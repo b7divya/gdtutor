@@ -1,0 +1,94 @@
+.main-section2 {
+    height: 91.5vh;
+    display: flex;
+    margin-top: 10px;
+}
+
+.main-section2-left {
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d52a0;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-section2-right {
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d52a0;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-section2-right-cointainer-top {
+    height: 75vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid rgb(255, 255, 255);
+    outline: 3px solid orangered;
+    border-radius: 10px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: orangered;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: rgb(7, 7, 7);
+    gap: 20px;
+    
+}
+
+.name, .number, .add, .remarks {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    align-items: flex-start;
+}
+
+.udaipur-button {
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-radius: 10px;
+}
